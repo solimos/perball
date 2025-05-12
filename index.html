@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pear Wif Balls</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+        body {
+            margin: 0;
+            padding: 0;
+            color: #00ff99;
+            background-color: lightgrey;
+            font-family: 'Share Tech Mono', monospace;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            text-align: center;
+            overflow: hidden;
+        }
+
+        .container {
+            max-width: 800px;
+            padding: 40px 30px;
+            border: 2px solid #00ff99;
+            box-shadow: 0 0 40px #00ff9977;
+            border-radius: 20px;
+            animation: flicker 2s infinite;
+        }
+
+        .headline {
+            font-size: 52px;
+            color: #00ffcc;
+            margin-bottom: 20px;
+            text-shadow: 0 0 8px #00ffcc;
+        }
+
+        .subline {
+            font-size: 20px;
+            color: #aaffdd;
+            margin-bottom: 30px;
+            font-style: italic;
+        }
+
+        .quote-box {
+            text-align: left;
+            background: #111;
+            padding: 20px;
+            border-left: 5px solid #00ff99;
+            font-size: 16px;
+            line-height: 1.6;
+            margin-bottom: 30px;
+            color: #ccffef;
+        }
+
+        .quote-box p {
+            margin: 10px 0;
+        }
+
+        .btn {
+            padding: 14px 32px;
+            font-size: 18px;
+            background: #00ff99;
+            color: #000;
+            border: none;
+            border-radius: 4px;
+            font-weight: bold;
+            text-decoration: none;
+            box-shadow: 0 0 12px #00ff99aa;
+            transition: all 0.3s ease;
+        }
+
+        .btn:hover {
+            background: #00e68a;
+            transform: scale(1.05);
+        }
+
+        .footer-tag {
+            margin-top: 40px;
+            font-size: 12px;
+            color: #888;
+        }
+
+        @keyframes flicker {
+            0% {
+                opacity: 0.97;
+            }
+
+            50% {
+                opacity: 1;
+            }
+
+            100% {
+                opacity: 0.95;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="headline">🍐 Pear Wif Balls</div>
+        <img src="pear.png" alt="Pear Wif Balls"
+            style="margin: 20px 0; border-radius: 12px; box-shadow: 0 0 20px #00ff99aa; width: 200px; height: 200px;" />
+        <div class="subline">I bit the forbidden fruit. Now I speak only in JPEG artifacts.</div>
+
+        <div class="quote-box">
+            <p>&gt; Saw a pear. It had balls.</p>
+            <p>&gt; I asked why. It blinked at me.</p>
+            <p>&gt; 3 hours later I was mayor of a dimensionless suburb.</p>
+            <p>&gt; The pear never lied. Only jiggled.</p>
+            <p>&gt; Ballfruit knows all. Accept the juice.</p>
+        </div>
+
+
+        <div class="footer-tag">Layer fruity. Reality slippery. 🍐💥</div>
+    </div>
+</body>
+
+</html>
